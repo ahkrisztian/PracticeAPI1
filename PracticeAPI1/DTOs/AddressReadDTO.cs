@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace PracticeAPI1.Models
+﻿namespace PracticeAPI1.DTOs
 {
-    public class Address
+    public class AddressReadDTO
     {
         public int Id { get; set; }
         public string AddressLine { get; set; }

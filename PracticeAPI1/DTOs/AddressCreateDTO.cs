@@ -1,10 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace PracticeAPI1.Models
+﻿namespace PracticeAPI1.DTOs
 {
-    public class Address
+    public class AddressCreateDTO
     {
-        public int Id { get; set; }
         public string AddressLine { get; set; }
         public string City { get; set; }
         public string Country { get; set; }

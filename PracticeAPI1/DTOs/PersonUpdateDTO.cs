@@ -1,14 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using PracticeAPI1.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace PracticeAPI1.Models
+namespace PracticeAPI1.DTOs
 {
-    [Table("Person")]
-    public class Person
+    public class PersonUpdateDTO
     {
-        [Key]
-        public int Id { get; set; }
-
         [Required]
         [MaxLength(255)]
         public string FirstName { get; set; }

@@ -7,7 +7,7 @@ namespace PracticeAPI1.Data
         IEnumerable<Person> GetAllPersons();
         Person GetPersonById(int id);
         void CreatePerson(Person person);
-        void UpdatePerson(Person person);
+        void UpdatePerson();
         void DeletePerson(Person person);
     }
 }
